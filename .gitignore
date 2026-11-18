@@ -1,0 +1,33 @@
+# --- Données : jamais de vidéo ni de donnée client dans git ---
+poc/data/*
+!poc/data/.gitkeep
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.h264
+
+# Poids de modèles
+*.pt
+*.onnx
+*.engine
+
+# Secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
+.claude/settings.local.json
